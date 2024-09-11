@@ -1,0 +1,153 @@
+.ptitle {
+  font-size: 30px;
+  margin-block-start: 0.83em;
+  margin-block-end: 0.83em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  margin-left: 4px;
+  font-weight: bold;
+  unicode-bidi: isolate;
+  padding-left: 20px;
+  color: gray;
+}
+
+h1,p{
+    user-select: none;
+}
+
+.ptitle button{
+    height: 70%;
+    width: auto;
+    font-size: 25px;
+    font-variant: normal;
+    border: 1px none black;
+    background-color: #eee;
+    border-radius: 8px;
+    border: 1px solid #0a263f;
+}
+
+.ptitle button:hover, .ptitle button:focus{
+    font-size: 25px;
+    border: 1px none black;
+    border-radius: 6px;
+    background-color: rgb(123, 134, 224);
+}
+.ptitle button:active{
+    background-color: #204362;
+}
+
+p{
+    margin-left: 20px;
+    font-size: 25px;
+}
+
+label{
+    font-size: 25px;
+    margin-left: 20px;
+}
+input{
+    user-select: text;
+    height: 30px ;
+    width: auto;
+    /* display: inline-block; */
+    border-radius: 8px;
+    border: gray 1px solid;
+}
+
+#contentnew{
+    margin-top: auto ;
+    width: 100%;
+}
+
+.formbooking {
+    width: 98%;
+    display: grid;
+    grid-template-columns: auto 90px ;
+}
+
+.sumbut{
+    width: 90px;
+    height: 95%;
+    border: 1px solid gray;
+    align-items: center;
+    justify-items: center;
+    font-size: 25px;
+    font-variant: normal;
+    background-color: #eee;
+    border-radius: 8px;
+    margin-right: 30px;
+}
+.sumbut:hover,.sunbut:focus{
+    font-size: 25px;
+    border: 1px none black;
+    border-radius: 8px;
+    background-color: #7b86e0;
+}
+
+thead tr:hover,thead tr:focus{
+    background-color: inherit;
+    color:inherit;
+}
+.reserve{
+    background-color: orange;
+}
+.reserve:hover,.reserve:focus{
+    background-color: chocolate;
+}
+
+.price{
+    color: orangered;
+    text-shadow: #0a263f;
+    font-size: large;
+}
+
+.table2{
+    width: 100%;
+    margin: auto;
+    padding: 20px;
+    text-align: center;
+    border-radius: 8px;
+}
+
+.table2 tr:hover td{
+    background-color: #7b86e0;
+}
+
+.table2 tr:hover td.reserve{
+    background-color: orange;
+}
+
+.table2 td {
+    border-radius: 8px;
+}
+.table2 td a{
+    background-color: inherit;
+    color: black;
+}
+
+.table2 tfoot a{
+    background-color:inherit;
+    color: black;
+}
+
+ .table2 tfoot a:focus{
+    color: white;
+}
+.table2 tfoot td:hover a{
+    color: white;
+}
+
+.abutton{
+    background-color:  aliceblue;
+    color: gray;
+    border-radius: 8px;
+    border: 0.5px solid black;
+    margin-left: 10px;
+    padding: auto;
+    cursor: pointer;
+}
+
+.abutton:focus,.abutton:hover{
+    background-color:  #204362;
+    color:#9e7e72;
+}

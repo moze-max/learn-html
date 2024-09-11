@@ -1,0 +1,141 @@
+#begin {
+    max-width: 1360px;
+    width: 100%;
+    height:300px;
+    margin-top: 70px;
+}
+
+.image-container{
+    position: relative;
+    display: inline-block;
+    user-select: none;
+}
+
+.image-container img {
+    display: block;
+}
+
+.container-text{
+    position: absolute;
+    top: 45%;
+    left: 20%;
+    transform: translate(-50%, -50%);
+    margin-top: 70px;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.container-text h2{
+    font-size: 30px;
+    color: white;
+}
+
+.container-text h3{
+    font-size: 20px;
+    color: white;
+}
+
+.container {
+    width: 100%;
+        background-color: #eeeeee;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: grid;
+    grid-template-columns: 3fr 1.2fr;
+} 
+
+#container1 {
+    width: 100%;
+    margin: 0 auto;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: grid;
+    grid-template-rows: 25ch 75ch 15ch;
+    color: rgb(135, 181, 222);
+
+} 
+
+#container1 *{
+    border-radius: 8px;
+    text-align: center;
+}
+
+#container1 table{
+    /* margin-right: 10%; */
+    margin-top: 10px;
+    width: 100%;
+    background-color:white;
+    color: white;
+}
+
+#container1 table tr{
+    width: 100%;
+    height: 100%;
+    color: #eee;
+    background-color: orange;
+    text-align: center;
+    font-weight: bold;
+    
+}
+
+#container1 table td{
+    width: auto ;
+    background-color: #eeeeee;
+    color: orangered;
+    
+}
+#container1 table td:hover{
+    text-decoration:none;
+    cursor: pointer;
+    user-select: none;
+    box-shadow: #03172a;
+    background-color: #204362;
+    color: aliceblue;
+}
+
+#container1 table td:hover a {
+    color: aliceblue;
+}
+
+#container1 table td a{
+    color :#757575;
+}
+
+
+#container1 td:active ,#container1 a:active ,#container1 a:active td{
+    box-shadow: #204362;
+    background-color: #204362;
+    color: inherit;
+    text-decoration:none;
+    cursor: pointer;
+    user-select: none;
+}
+
+#container1 h1{
+    font-size: 20px;
+    background-color: white;
+    color: black;
+    width: auto;
+    border-bottom: #757575 dashed ;
+    text-align: start;
+}
+
+.figure figure{
+    float: left;
+    width: 45%;
+    margin: 2%;
+}
+
+.figure figure:hover {
+    background-color: #204362;
+}
+.figure img {
+    width: 98%;
+    height: 98%;
+    margin: auto;
+    margin-top: 0.5%;
+
+}
+.figure a{
+    color: #757575;
+}

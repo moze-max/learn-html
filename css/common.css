@@ -1,0 +1,213 @@
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: #eee;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0px;
+}
+
+h1 {
+    font-size: 30px;
+    display: block;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    margin-left: 4px;
+    font-weight: bold;
+    unicode-bidi: isolate;
+    border-bottom: 1px dashed;
+    padding-left: 20px;
+    color: gray;
+}
+
+.clearfix {
+    clear: both;
+}
+
+
+/* nav{
+    max-width: 1360px;
+    margin: auto;
+}
+
+img{
+    width: 20%;
+    float: left;
+}
+
+ul{
+    width: 75%;
+    float: left;
+
+}
+li{
+
+    width: 20%;
+} */
+
+.header {
+    background-color: #333;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 70px;
+    width: 100%;
+    z-index: 999;
+}
+
+
+.header ul {
+    width: 75%;
+    float: right;
+}
+
+.header li {
+    display: inline-block;
+    font-family: "微软雅黑";
+    width: 19%;
+    height: 80px;
+}
+
+.header a {
+    width: 100%;
+    display: inline-block;
+    line-height: 70px;
+    text-align: center;
+}
+
+.header [data-page$='currentPageFileName.html'] .header a:hover,
+.header .active:link {
+    background-color: black;
+}
+
+.header nav {
+    max-width: 1360px;
+    margin: auto;
+}
+
+.header nav a {
+    transition: background-color 0.6s ease, color 0.6s ease;
+}
+
+.header nav a.active {
+    background-color: inherit;
+    /* 渐变背景色，可以根据喜好调整 */
+    color: white;
+    /* 文字颜色，可以根据喜好调整 */
+}
+
+footer {
+    background-color: #333;
+    margin-top: 30px;
+}
+
+footer .center {
+    margin: auto;
+    max-width: 1360px;
+    height: 350px;
+}
+
+footer ul {
+    width: 30%;
+    float: left;
+    margin: 1%;
+    margin-top: auto;
+}
+
+footer li {
+    margin-top: 10px;
+}
+
+footer .bottom {
+    align-items: center;
+    justify-items: center;
+    text-align: center;
+    color: #eee;
+
+}
+
+footer .title {
+    font-size: 30px;
+    border-bottom: 1px #eee dashed;
+    padding: 10px 0px;
+}
+
+footer a {
+    background-color: inherit;
+    color: white;
+}
+
+.choised {
+    color: #eee;
+    text-decoration: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    transition: background-color 0.6s ease;
+}
+
+.choised:hover {
+    color: inherit;
+    background-color: #BDBDBD;
+    /* 鼠标悬停时的背景颜色 */
+    text-decoration: none;
+}
+
+.choised:active {
+    color: inherit;
+    background-color: #757575;
+    /* 鼠标按下时的背景颜色 */
+    text-decoration: none;
+}
+
+.choised:focus {
+    color: inherit;
+    background: #9e9e9e;
+    background-color: #9e9e9e;
+    /* 获得焦点时的背景颜色 */
+    text-decoration: none;
+}
+
+#begin {
+    max-width: 1360px;
+    width: auto;
+    height: 300px;
+    margin-top: 70px;
+}
+
+.image-container {
+    position: relative;
+    display: inline-block;
+}
+
+.image-container img {
+    display: block;
+}
+
+.container-text {
+    position: absolute;
+    top: 45%;
+    left: 20%;
+    transform: translate(-50%, -50%);
+    margin-top: 70px;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.container-text h2 {
+    font-size: 30px;
+    color: white;
+}
+
+.container-text h3 {
+    font-size: 20px;
+    color: white;
+}

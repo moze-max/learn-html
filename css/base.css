@@ -1,0 +1,169 @@
+/* 通用样式 */
+body {
+    font-family: "Arial", sans-serif;
+    color: #333;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    background-color: beige;
+}
+
+ol {
+    list-style: none;
+    text-decoration:none;
+}
+
+li {
+    list-style: none;
+    text-decoration:none;
+    color: #333;
+}
+
+/* 标题样式 */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: bold;
+    color: #333;
+    margin-top: 0;
+    text-align: center;
+}
+
+h1 {
+    font-size: 2.5em;
+    margin-bottom: 0.5em;
+}
+
+h2 {
+    font-size: 2em;
+    margin-bottom: 0.5em;
+}
+
+h3 {
+    font-size: 1.75em;
+    margin-bottom: 0.5em;
+}
+
+h4 {
+    font-size: 1.5em;
+    margin-bottom: 0.5;
+}
+
+h5 {
+    font-size: 1.25em;
+    margin-bottom: 0.5em;
+}
+
+h6 {
+    font-size: 1em;
+    margin-bottom: 0.5em;
+}
+
+/* 段落样式 */
+p {
+    line-height: 1.6;
+    margin-bottom: 1em;
+}
+
+/* 链接样式 */
+a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #0056b3;
+    text-decoration: underline;
+}
+
+/* 按钮样式 */
+.btn {
+    display: inline-block;
+    padding: 0.5em 1em;
+    font-size: 1em;
+    color: #fff;
+    background-color: #007bff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #0056b3;
+}
+
+/* 表单样式 */
+input[type="text"],
+input[type="email"],
+input[type="password"],
+textarea {
+    width: 100%;
+    padding: 0.5em;
+    margin-bottom: 1em;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+input[type="submit"],
+button {
+    padding: 0.5em 1em;
+    font-size: 1em;
+    color: #fff;
+    background-color: #007bff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+input[type="submit"]:hover,
+button:hover {
+    background-color: #0056b3;
+}
+
+/* 容器样式 */
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+    gap: 3px;
+    margin-top: 70px;
+}
+
+/* .container {
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+    gap: 3px;
+} */
+
+/* 响应式设计 */
+@media (max-width: 768px) {
+    .container {
+        width: 95%;
+    }
+}
+
+.sidebar {
+    position: fixed;
+    /* 固定定位 */
+    top: 70px;
+    left: 0;
+    width: auto;
+    /* 目录宽度 */
+    height: auto ;
+    background-color: #f4f4f4;
+    padding: 10px;
+    box-sizing: border-box;
+    border-radius: 8px;
+    border: 0.8px solid black;
+}
