@@ -11,6 +11,5 @@ function changeBackgroundforpages() {
     // 设置新的背景图  
     document.getElementById('begin').style.display = images[currentImageIndex];  
 }  
-  
-// 设置幻灯片放映的时间间隔，例如每3秒更换一次图片  
-setInterval(changeBackgroundforpages, 4000);
+
+setInterval(changeBackgroundforpages, 100);
