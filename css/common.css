@@ -58,7 +58,7 @@ li{
     position: fixed;
     top: 0;
     left: 0;
-    height: 70px;
+    height: 4.5em;
     width: 100%;
     z-index: 999;
 }
@@ -102,6 +102,10 @@ li{
     /* 渐变背景色，可以根据喜好调整 */
     color: white;
     /* 文字颜色，可以根据喜好调整 */
+}
+
+.header nav img{
+    width: auto;
 }
 
 footer {
