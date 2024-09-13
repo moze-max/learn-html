@@ -73,8 +73,10 @@ li{
     display: inline-block;
     font-family: "微软雅黑";
     width: 19%;
-    height: 80px;
+    height: 70px;
 }
+
+
 
 .header a {
     width: 100%;
@@ -91,6 +93,11 @@ li{
 .header nav {
     max-width: 1360px;
     margin: auto;
+}
+
+.header li:hover{
+    color: aliceblue;
+    background-color: aliceblue;
 }
 
 .header nav a {
@@ -114,7 +121,7 @@ footer {
 }
 
 footer .center {
-    margin: auto;
+    /* margin: auto; */
     max-width: 1360px;
     height: 350px;
 }
@@ -128,6 +135,7 @@ footer ul {
 
 footer li {
     margin-top: 10px;
+    width: 100%;
 }
 
 footer .bottom {
@@ -142,6 +150,7 @@ footer .title {
     font-size: 30px;
     border-bottom: 1px #eee dashed;
     padding: 10px 0px;
+    width: auto ;
 }
 
 footer a {
